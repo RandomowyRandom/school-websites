@@ -1,0 +1,24 @@
+html, body{
+    background-color: palevioletred;
+    color: black;
+    font-family: "Comic Sans MS";
+    margin-top: 10px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.stopka{
+    width: 800px;
+    font-size: 20px;
+}
+
+.stopka{
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
