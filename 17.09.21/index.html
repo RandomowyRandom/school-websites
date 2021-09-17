@@ -9,12 +9,13 @@
         </button>
 
         <script>
+            let owoce = ['zurawina', 'jablko', 'jagoda', 'malina']
+
+            document.write(`Owoce przed sortowaniem: ${owoce}`)
+
             document.getElementById('sort').onclick = () => {
-                let owoce = ['zurawina', 'jablko', 'jagoda', 'malina']
-
+                document.write(`Owoce przed sortowaniem: ${owoce} owoce po sortowaniu ${owoce.sort()}`)
                 owoce.sort()
-
-                document.write(owoce)
             }
         </script>
     </body>
