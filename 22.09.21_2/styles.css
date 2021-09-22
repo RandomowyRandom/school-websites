@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+
+.przyciecie{
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(-135deg, transparent 15px, rgb(219, 27, 209) 0);
+    transform: rotate(69deg) scale(1, 3);
+}
