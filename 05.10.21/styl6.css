@@ -15,7 +15,7 @@
     height: 150px;
 }
 
-img{
+.full-image{
     height: 100%;
     width: 100%;
 }
@@ -37,10 +37,25 @@ img{
 
 .tabela{
     width: 100%;
+    border-style: dotted;
+    border-color: red;
 }
 
 footer{
     background-color: #993333;
     text-align: right;
     color: white;
+}
+
+button{
+    border-style: none;
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+.right-image{
+    width: 400px;
+    height: 400px;
+
 }
