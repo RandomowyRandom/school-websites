@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(44, 44, 44);
+}
+
+.top-left{
+    background-color: rgb(206, 175, 136);
+    overflow: hidden;
+    border-radius: 20px;
+    width: min-content;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.top-left img{
+    border-radius: 20px;
+    margin: 8px;
+    box-shadow: 5px 5px 15px 5px #00000079;
+}
+
+.recenzja-imie{
+    text-decoration: underline;
+}
+
+.recenzja-text{
+    font-size: 30px;
+}

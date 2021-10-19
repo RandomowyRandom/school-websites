@@ -1,0 +1,11 @@
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(44, 44, 44);
+    text-align: justify;
+    text-indent: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
