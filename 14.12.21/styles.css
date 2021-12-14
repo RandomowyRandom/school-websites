@@ -1,0 +1,25 @@
+img{
+    /* center and put at the top */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+h1{
+        /* center and put at the top */
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, 50%);
+        z-index: 10;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
