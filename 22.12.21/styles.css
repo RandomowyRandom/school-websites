@@ -1,0 +1,24 @@
+.left {
+  left: 0;
+  background-color: #fe8989;
+  width: 40%;
+}
+
+.right {
+  right: 0;
+  background-color: #7972d8;
+  width: 60%;
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
