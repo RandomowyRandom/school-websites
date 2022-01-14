@@ -1,40 +1,45 @@
 // stworzenie elementu img
-let player = document.createElement("img")
+let johnXina = document.createElement("img");
 
 // ustawienie zdjęcia img i dodanie mu klasy "player"
-player.setAttribute("src", "johnxina.jpg") 
-player.classList.add("player")
+johnXina.setAttribute("src", "johnxina.jpg");
+johnXina.classList.add("player");
 
 // dodanie elementu do body
-document.body.appendChild(player)
+document.body.appendChild(johnXina);
 
-// tablica z pozyvją gracza
-let position = [0, 0]
+// tablica z pozycją elementu
+let pozycja = [0, 0];
 
-// nasłuchwanie cdo kliknięcia na strzałkę
-document.addEventListener("keydown", e =>{
-    switch(e.key){
-        case "ArrowUp":
-            // zmienienie pozycji gracza do góry
-            position[1]--
-            break
-        case "ArrowDown":
-            // zmienienie pozycji gracza do dołu
-            position[1]++
-            break
-        case "ArrowLeft":
-            // zmienienie pozycji gracza do lewej
-            position[0]--
-            break
-        case "ArrowRight":
-            // zmienienie pozycji gracza do prawej
-            position[0]++
-            break
-        }
+// wartość o którą element będzie się przemieszczał
+let wartoscInkrementacji = 20;
 
-        // ustawienie pozycji gracza
-    player.style.top = position[1] * 20 + "px"
-    player.style.left = position[0] * 20 + "px"
+// nasłuchwanie kliknięcia strzałek
+document.addEventListener("keydown", (event) => {
+  switch (event.key) {
+    case "ArrowUp":
+      // zmienienie pozycji gracza do góry
+      // y + 1
+      pozycja[1]--;
+      break;
+    case "ArrowDown":
+      // zmienienie pozycji gracza w dół
+      // y - 1
+      pozycja[1]++;
+      break;
+    case "ArrowLeft":
+      // zmienienie pozycji gracza w lewo
+      // x - 1
+      pozycja[0]--;
+      break;
+    case "ArrowRight":
+      // zmienienie pozycji gracza w prawo
+      // x + 1
+      pozycja[0]++;
+      break;
+  }
 
-    }
-)
+  // ustawienie pozycji gracza
+  johnXina.style.top = pozycja[1] * wartoscInkrementacji + "px";
+  johnXina.style.left = pozycja[0] * wartoscInkrementacji + "px";
+});
